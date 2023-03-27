@@ -14,7 +14,7 @@
 }
 
 .background{
-    background: black;
+    background: rgb(54, 1, 54);
     background-blend-mode: darken;
     background-size: cover;
 }
@@ -43,7 +43,7 @@
 
 .nav-list li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .nav-list li a:hover {
@@ -60,12 +60,12 @@
     border-radius: 9px;
 }
 .firstsection {
-    background-color: green;
+    background-color: rgb(88, 4, 4);
     height: 400px;
 }
 
 .secondsection {
-    background-color:blue;
+    background-color:rgb(90, 2, 2);
     height: 400px;
 }
 
@@ -124,11 +124,12 @@
 }
 
 .section {
+    background-color: rgb(88, 3, 3);
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
 }
 
