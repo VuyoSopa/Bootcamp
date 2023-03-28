@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: block;
+    align-items: first baseline;
+    justify-content: baseline;
+    position: sticky;
+    top: auto;
+    cursor: pointer;
+}
+
+.background{
+    background: black;
+    background-blend-mode: darken ;
+    background-size: cover;
+}
+
