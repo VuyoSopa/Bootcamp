@@ -29,17 +29,42 @@
   //  console.log("We cannot have negative years!")
 //}
 
-let a=10
-let b=5
-let c=15
+//let a=10
+//let b=5
+//let c=15
 
-if (a>b && a>c) {
-    console.log(a)
-}else if (b>a && b>c) {
-    console.log(b)
-} else if(c>a && c>b) {
-    console.log(c)
+//if (a>b && a>c) {
+  //  console.log("a middle number")
+//}else if (b>a && b>c) {
+  //  console.log("b smallest number")
+//} else if(c>a && c>b) {
+  //  console.log("c biggest number")
+//}
+function submit() {
+
+
+
+    let number = document.getElementById("submit").value
+
+    if (number%2 == 0) {
+        alert("Hello this is an even" +" "+ number)
+    }
+    else {
+        alert("Hello this is an odd" +" "+ number)
+    }
+
 }
+
+
+
+ 
+
+
+
+
+
+// let x=4;
+// let y=2;
 
 
 
