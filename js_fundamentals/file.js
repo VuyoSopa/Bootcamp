@@ -58,14 +58,15 @@
 //for (let i = 0; i <= 9; i++){
   //console.log(2=0)
 //}
-let numbers = [2,9,11,7,5,3,4,8,15]
-for (let v=0; v <= numbers.length ;v++){
-    
-    if(numbers[v]%2 == 0) {
-       console.log("Hello this is an even" + numbers[v])
-    }
-
+/*fletter = ["Vuyo","Yamkela","Ncesh","Luxolo"]
+for (let v=0; fletter.length ;v++) {
+    if(fletter[v]) 
+    console.log(fletter[v].charAt(0))
 }
+    
+    
+
+
 
  
 
