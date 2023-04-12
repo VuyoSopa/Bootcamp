@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background-color: black;
+    background-image: url("wall.jpg");
     display: grid;
     place-items: center;
 }

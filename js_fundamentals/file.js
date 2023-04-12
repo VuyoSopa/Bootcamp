@@ -44,14 +44,14 @@
 
 
 
-  //  let number = document.getElementById("submit").value
+   /* let number = document.getElementById("submit").value
 
-    //if (number%2 == 0) {
-      //  alert("Hello this is an even" +" "+ number)
-    //}
-    //else {
-      //  alert("Hello this is an odd" +" "+ number)
-    //}
+    if (number%2 == 0) {
+        alert("Hello this is an even" +" "+ number)
+    }
+    else {
+        alert("Hello this is an odd" +" "+ number)
+    }*/
 
 //}
 //let numbers = [2,9,11,7,5,3,4,8,15]
@@ -76,8 +76,5 @@ for (let v=0; fletter.length ;v++) {
 
 // let x=4;
 // let y=2;
-
-
-
 
 

@@ -13,7 +13,12 @@
 }
 
 .background{
-    background: black;
+    background-color: black;
+    color: purple;
+}
+
+.element {
+    backdrop-filter: color-shifting(100px);
 }
 
 .nav-list

@@ -1,4 +1,4 @@
-const closedEmoji = document.querySelector('.closed')
+ const closedEmoji = document.querySelector('.closed')
 const openEmoji = document.querySelector('.open')
 
 

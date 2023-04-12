@@ -8,7 +8,7 @@ console.log(addTen(7))*/
 }
 console.log(multiplyByFive(3))*/
 
-function sumTwovalues(c,d) {
+/*function sumTwovalues(c,d) {
     return c+d
 }
-console.log(sumTwovalues(9,1))
+console.log(sumTwovalues(9,1))*/

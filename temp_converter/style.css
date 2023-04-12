@@ -1,23 +1,35 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 body{
-    background: url('./Spier-Light-Art-FA-image.webp');
+    background-image: url(HD-wallpaper-rainy-day-graphy-girl-breeze-beauty-nature-beautiful-rain-woman.jpg);
     align-items: center;
     justify-content: center;
-    color: azure;
     display: flex;
     flex-direction: column;
     padding-top: 20%;
 }
 
+/*background-image{
+    height: 4000px;
+    width: 5000px;
+}*/
+
+
+
 h1 {
     margin-bottom: 20px;
     font-size: 48px;
-    /* text-decoration: underline; */
+    color: whitesmoke;
+}
+
+p {
+    color:green;
+    font-size: 25px;
+    
 }
 
 input {
@@ -34,11 +46,11 @@ input::placeholder{
     font-size: 18px;
 }
 
+
 button {
     padding: 10px;
     border-radius: 5px;
-    /* background-color: #eee; */
-    background-color: #181b19; /* Green */
+    background-color: #181b19;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -46,4 +58,9 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+
+input::placeholder{
+    font-size: 18px;
 }

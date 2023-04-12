@@ -1,16 +1,21 @@
-function calcAge(years){
-    let age = (2023-years);
-    if(age < 0) {
-        return("error,age cannot be negative")
+function submit() {
+    let years = document.getElementById("submit").value;
+
+    let age = (2023 - years);
+    if (!years){
+        alert ("Please enter your born Year")
+      }
+
+    else if (age < 0) {
+        alert("error,age cannot be negative")
     }
     else if (age >= 0)
-    {
-        return age
-    }
-    else if ('bornYear'){
-        return "Please enter your born Year"
+        alert(age)
+    
+    
+     
     }
        
-}
-console.log(calcAge())
+
+
     
