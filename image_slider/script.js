@@ -19,8 +19,18 @@ prev.addEventListener('click', () => {
 let images= [
     "joker.jpg",
     "wallpapers.jpg",
-    "anime.jpg"
+    "anime.jpg",
+    "met.webp",
+    "harley.webp",
+    "cartoon.jpg"
 ];
+
+function addimage() {
+  Img = document.getElementById('images').value
+ images.push(Img)
+ //console.log(Img);
+}
+
 let index = 0; 
 
 img = document.getElementById('image')
@@ -50,6 +60,8 @@ function prev() {
      img.src = images [index];
   
 }
+
+
 
 
 
