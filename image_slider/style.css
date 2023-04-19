@@ -10,11 +10,19 @@ body{
     display: grid;
     place-items: center;
 }
+h1{
+    font-size: 90px;
+    font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 100%;
+    background-image: url(Encanto_Doors_1s_Mirabel_v3.1_mech4_FS-1200x675.jpg);
+    color: transparent;
+    font-style: italic;
+}
 
 img{
     display: block;
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 1.5rem;
     border: 5px snow;
@@ -24,7 +32,8 @@ img{
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 300px;   
+    width: 400px;
+    height: 450px;   
 }
 
 img:hover{
